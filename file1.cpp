@@ -30,5 +30,14 @@ public:
   newNode->next = top; // 3. set the next pointer of the new node to the curret top
   top = newNode; // 4, update the top pointer to the new node
   cout << "Push Value: " << value << endl;
+  return;
  }
+
+ // pop operation: remove the topmodt elemenet from the stack
+  void pop() {
+   if (isEmpty()) {
+    cout << "stack is empty. " << endl;
+   }
+
+   
 }
