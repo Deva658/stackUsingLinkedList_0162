@@ -109,6 +109,11 @@ int main()
             {
                 stack.peak(); // get the value of the top element
             }
+            else
+            {
+                cout << "Stack is empty. NO top value." << endl;
+            }
+            break;
         }
     }
 }
