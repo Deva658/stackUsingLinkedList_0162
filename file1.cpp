@@ -104,6 +104,11 @@ int main()
                 cout << "Stack is empty. cannot pop." << endl;
             }
             break;
+        case 3:
+            if (!stack.isEmpty())
+            {
+                stack.peak(); // get the value of the top element
+            }
         }
     }
 }
