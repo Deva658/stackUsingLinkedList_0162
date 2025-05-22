@@ -69,3 +69,10 @@ public:
         return top == NULL; // returm true if the top pointer s null, indicating
     }
 };
+
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
